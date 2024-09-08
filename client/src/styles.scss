@@ -21,12 +21,13 @@ $customTheme: mat.define-theme();
 }
 .container {
   @apply max-w-screen-xl mx-auto;
- 
 }
 .text-primary {
-  color:#7d00fa
+  color: #7d00fa;
 }
-button.match-input-height  {
+button.match-input-height {
   height: var(--mat-form-field-container-height) !important;
-
+}
+.mdc-notched-outline__notch {
+  border-right-style: none !important;
 }
